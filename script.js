@@ -72,3 +72,31 @@ if (contactForm) {
 }
 
 console.log('Portfolio Loaded Successfully!');
+
+// Function to show notifications
+function showNotification(message, type) {
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.innerText = message;
+    
+    // Basic styling for the notification
+    Object.assign(notification.style, {
+        position: 'fixed',
+        bottom: '20px',
+        right: '20px',
+        padding: '15px 25px',
+        backgroundColor: type === 'success' ? '#00d4ff' : '#ff4b2b',
+        color: '#0a0a0a',
+        borderRadius: '10px',
+        zIndex: '2000',
+        fontWeight: 'bold',
+        boxShadow: '0 5px 15px rgba(0,0,0,0.3)'
+    });
+
+    document.body.appendChild(notification);
+
+    // Remove after 3 seconds
+    setTimeout(() => {
+        notification.remove();
+    }, 3000);
+}
