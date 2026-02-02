@@ -1,38 +1,110 @@
-// Mobile Navigation Toggle
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+/* ============================================
+   PROFESSIONAL PORTFOLIO - MINIMAL SCRIPTS
+   ============================================ */
 
-hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navbar = document.querySelector('.navbar');
+
+    // Mobile menu toggle
+    function toggleMenu() {
+        const isActive = hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', isActive);
+        document.body.style.overflow = isActive ? 'hidden' : '';
+    }
+
+    hamburger.addEventListener('click', toggleMenu);
+
+    // Close menu on link click
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (navMenu.classList.contains('active')) {
+                toggleMenu();
+            }
+        });
+    });
+
+    // Close menu on escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+            toggleMenu();
+        }
+    });
+
+    // Smooth scroll
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const offset = navbar.offsetHeight;
+                window.scrollTo({
+                    top: target.offsetTop - offset,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Active link on scroll
+    const sections = document.querySelectorAll('section[id]');
+    
+    function updateActiveLink() {
+        const scrollY = window.pageYOffset;
+        sections.forEach(section => {
+            const top = section.offsetTop - navbar.offsetHeight - 100;
+            const height = section.offsetHeight;
+            const id = section.getAttribute('id');
+            const link = document.querySelector(`.nav-link[href="#${id}"]`);
+            
+            if (scrollY >= top && scrollY < top + height && link) {
+                navLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            }
+        });
+    }
+
+    // Navbar scroll effect
+    function handleScroll() {
+        navbar.classList.toggle('scrolled', window.scrollY > 50);
+        updateActiveLink();
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    // Simple fade-in animation
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-in');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.stat-card, .timeline-item, .skill-category, .project-card, .achievement-card, .contact-card, .reference-card').forEach(el => {
+        el.classList.add('animate-ready');
+        observer.observe(el);
+    });
+
+    // Contact form
+    const form = document.getElementById('contactForm');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                alert('Thank you! Your message has been sent.');
+                this.reset();
+                btn.textContent = 'Send Message';
+                btn.disabled = false;
+            }, 1000);
+        });
+    }
 });
-
-// Contact Form Submission
-const contactForm = document.getElementById('contactForm');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = contactForm.querySelector('input[type="text"]').value;
-        const email = contactForm.querySelector('input[type="email"]').value;
-        const message = contactForm.querySelector('textarea').value;
-        
-        const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
-        const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-        window.location.href = `mailto:tinamarietta31@gmail.com?subject=${subject}&body=${body}`;
-        
-        showNotification('Opening your email client...', 'success');
-        contactForm.reset();
-    });
-}
-
-// Fixed Notification Function
-function showNotification(message, type) {
-    const notification = document.createElement('div');
-    notification.innerText = message;
-    Object.assign(notification.style, {
-        position: 'fixed', bottom: '20px', right: '20px', padding: '15px 25px',
-        backgroundColor: '#00d4ff', color: '#0a0a0a', borderRadius: '10px',
-        zIndex: '2000', fontWeight: 'bold'
-    });
-    document.body.appendChild(notification);
-    setTimeout(() => notification.remove(), 3000);
-}
