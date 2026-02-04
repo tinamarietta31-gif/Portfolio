@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('animate-in');
-                observer.unobserve(entry.target);
+                observer.unobserve(entry.target); 
             }
         });
     }, { threshold: 0.1 });
