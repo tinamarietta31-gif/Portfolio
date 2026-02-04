@@ -1,27 +1,36 @@
 {
     "name": "Tina Marietta J - Official Portfolio",
-    "short_name": "Tina Marietta",
-    "description": "Official portfolio of Tina Marietta J, B.Tech AI & Data Science student at St. Xavier's Catholic College of Engineering, Nagercoil",
+    "short_name": "Tina Marietta J",
+    "description": "Official portfolio website of Tina Marietta J - B.Tech AI & Data Science student at St. Xavier's Catholic College of Engineering, Nagercoil, Tamil Nadu, India. Expert in Python, Java, Machine Learning, and IoT.",
     "start_url": "/",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#0066ff",
     "orientation": "portrait-primary",
+    "lang": "en-US",
+    "dir": "ltr",
+    "categories": ["portfolio", "education", "technology", "personal"],
+    "iarc_rating_id": "",
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "favicon-16x16.png",
             "sizes": "16x16",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "favicon-32x32.png",
             "sizes": "32x32",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "apple-touch-icon.png",
             "sizes": "180x180",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icon-192.png",
@@ -36,7 +45,38 @@
             "purpose": "any maskable"
         }
     ],
-    "categories": ["portfolio", "education", "technology"],
-    "lang": "en-US",
-    "dir": "ltr"
+    "screenshots": [
+        {
+            "src": "tina-marietta-j-ai-data-science-student.jpg",
+            "sizes": "800x800",
+            "type": "image/jpeg",
+            "label": "Tina Marietta J Profile Photo"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "About Tina Marietta J",
+            "short_name": "About",
+            "url": "/#about",
+            "description": "Learn about Tina Marietta J"
+        },
+        {
+            "name": "Projects",
+            "short_name": "Projects",
+            "url": "/#projects",
+            "description": "View Tina Marietta J's projects"
+        },
+        {
+            "name": "Contact",
+            "short_name": "Contact",
+            "url": "/#contact",
+            "description": "Contact Tina Marietta J"
+        }
+    ],
+    "related_applications": [],
+    "author": {
+        "name": "Tina Marietta J",
+        "email": "tinamarietta31@gmail.com",
+        "url": "https://tinamarietta.com"
+    }
 }
