@@ -1,0 +1,38 @@
+/* TEAM */
+
+Name: Tina Marietta J
+Role: Owner, Developer, Designer
+Location: Nagercoil, Tamil Nadu, India
+Email: tinamarietta31@gmail.com
+LinkedIn: linkedin.com/in/tina-marietta-565a62301
+GitHub: github.com/tinamarietta31-gif
+Website: tinamarietta.com
+
+/* ABOUT */
+
+Name: Tina Marietta J - Official Portfolio
+Description: Official portfolio website of Tina Marietta J, a B.Tech AI & Data Science student at St. Xavier's Catholic College of Engineering (SXCCE), Nagercoil, Tamil Nadu, India.
+Keywords: Tina Marietta, Tina Marietta J, AI, Data Science, Machine Learning, Python, Java, Portfolio, SXCCE, Nagercoil
+
+/* SITE */
+
+Last update: 2025/01/15
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6
+Components: Font Awesome
+Software: VS Code
+
+/* EDUCATION */
+
+Degree: B.Tech AI & Data Science
+Institution: St. Xavier's Catholic College of Engineering
+Location: Nagercoil, Tamil Nadu, India
+Duration: 2023 - Present
+
+/* SKILLS */
+
+Programming: Python, Java, C, C++, JavaScript
+Web: HTML5, CSS3, JavaScript
+Database: MySQL
+Tools: Git, GitHub, VS Code, Blender, Unity
+Domains: Machine Learning, Deep Learning, Computer Vision, IoT, NLP

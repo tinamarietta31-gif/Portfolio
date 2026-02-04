@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- ============================================
+         TINA MARIETTA J - IMAGE SITEMAP
+         Optimized for Google Images #1 Ranking
+         ============================================ -->
+    
+    <url>
+        <loc>https://tinamarietta.com/</loc>
+        
+        <!-- Primary Profile Photo -->
+        <image:image>
+            <image:loc>https://tinamarietta.com/tina-marietta-j-ai-data-science-student.jpg</image:loc>
+            <image:title>Tina Marietta J - Official Profile Photo</image:title>
+            <image:caption>Official high-quality professional profile photograph of Tina Marietta J, a talented B.Tech student specializing in Artificial Intelligence and Data Science at St. Xavier's Catholic College of Engineering (SXCCE), Nagercoil, Tamil Nadu, India. Tina Marietta is an expert in Python, Java, C, C++, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and IoT Development. This is the official, verified, and authentic profile photo of Tina Marietta J. Keywords: Tina Marietta, Tina Marietta J, Tina Marietta photo, Tina Marietta image, Tina Marietta picture, Tina Marietta portrait, Tina Marietta profile, AI student photo, Data Science student, SXCCE Nagercoil student, Tamil Nadu AI developer.</image:caption>
+            <image:geo_location>Nagercoil, Tamil Nadu, India</image:geo_location>
+            <image:license>https://creativecommons.org/licenses/by-nc-nd/4.0/</image:license>
+        </image:image>
+        
+    </url>
+    
+</urlset>

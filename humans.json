@@ -1,0 +1,33 @@
+{
+    "name": "Tina Marietta J",
+    "alternateName": ["Tina Marietta", "Tina M J", "Tina Marietta Nagercoil"],
+    "description": "B.Tech AI & Data Science student at St. Xavier's Catholic College of Engineering, Nagercoil",
+    "url": "https://tinamarietta.com",
+    "email": "tinamarietta31@gmail.com",
+    "image": "https://tinamarietta.com/tina-marietta-j-ai-data-science-student.jpg",
+    "jobTitle": "AI & Data Science Student",
+    "alumniOf": "St. Xavier's Catholic College of Engineering",
+    "location": "Nagercoil, Tamil Nadu, India",
+    "sameAs": [
+        "https://www.linkedin.com/in/tina-marietta-565a62301/",
+        "https://github.com/tinamarietta31-gif"
+    ],
+    "skills": [
+        "Python", "Java", "C", "C++", "JavaScript",
+        "HTML", "CSS", "MySQL", "Git", "GitHub",
+        "Machine Learning", "Deep Learning", "Computer Vision",
+        "IoT", "Blender", "Unity"
+    ],
+    "projects": [
+        "Hotel ERP Software",
+        "Sign Language Translation to English",
+        "Smart Car Parking IoT System"
+    ],
+    "certifications": [
+        "NPTEL Cloud Computing",
+        "Unity Essentials Pathway",
+        "Blender 3D Design & Animation"
+    ],
+    "languages": ["English", "Tamil"],
+    "keywords": "Tina Marietta, Tina Marietta J, AI developer, Data Science student, SXCCE Nagercoil, Machine Learning, Python developer"
+}

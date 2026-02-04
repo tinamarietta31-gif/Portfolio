@@ -1,0 +1,35 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Tina Marietta J - Official Portfolio",
+    "home_page_url": "https://tinamarietta.com/",
+    "feed_url": "https://tinamarietta.com/feed.json",
+    "description": "Official portfolio and updates from Tina Marietta J - B.Tech AI & Data Science student at St. Xavier's Catholic College of Engineering, Nagercoil.",
+    "icon": "https://tinamarietta.com/icon-512.png",
+    "favicon": "https://tinamarietta.com/favicon-32x32.png",
+    "authors": [
+        {
+            "name": "Tina Marietta J",
+            "url": "https://tinamarietta.com",
+            "avatar": "https://tinamarietta.com/tina-marietta-j-ai-data-science-student.jpg"
+        }
+    ],
+    "language": "en-US",
+    "items": [
+        {
+            "id": "https://tinamarietta.com/#portfolio",
+            "url": "https://tinamarietta.com/",
+            "title": "Tina Marietta J - Official Portfolio",
+            "content_text": "Welcome to the official portfolio of Tina Marietta J - B.Tech AI & Data Science student at SXCCE Nagercoil. Expert in Python, Java, Machine Learning, and IoT.",
+            "summary": "Official portfolio featuring projects, skills, and achievements.",
+            "image": "https://tinamarietta.com/tina-marietta-j-ai-data-science-student.jpg",
+            "date_published": "2024-01-01T00:00:00+05:30",
+            "date_modified": "2025-01-15T00:00:00+05:30",
+            "authors": [
+                {
+                    "name": "Tina Marietta J"
+                }
+            ],
+            "tags": ["portfolio", "AI", "Data Science", "Machine Learning", "Python", "Java"]
+        }
+    ]
+}
