@@ -1,36 +1,103 @@
-# Robots.txt for tinamarietta.com
-# Official Portfolio of Tina Marietta J
+# ============================================
+# TINA MARIETTA J - OFFICIAL PORTFOLIO
+# robots.txt - Maximum Search Engine Optimization
+# ============================================
 
+# Allow all search engines full access
 User-agent: *
 Allow: /
+Allow: /tina-marietta-j-ai-data-science-student.jpg
+Allow: /sitemap.xml
 
-# Sitemap location
+# Sitemap locations
 Sitemap: https://tinamarietta.com/sitemap.xml
+Sitemap: https://tinamarietta.com/sitemap-image.xml
 
-# Allow all major search engines
+# Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Googlebot-Image
 Allow: /
+Allow: /tina-marietta-j-ai-data-science-student.jpg
 
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+# Bing
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
-User-agent: Slurp
+User-agent: MSNBot
 Allow: /
 
+User-agent: MSNBot-Media
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo
 User-agent: DuckDuckBot
 Allow: /
 
+# Baidu
 User-agent: Baiduspider
 Allow: /
+Crawl-delay: 2
 
+User-agent: Baiduspider-image
+Allow: /
+Allow: /tina-marietta-j-ai-data-science-student.jpg
+
+# Yandex
 User-agent: YandexBot
 Allow: /
+Crawl-delay: 2
 
-# Crawl delay (optional - be kind to server)
-Crawl-delay: 1
+User-agent: YandexImages
+Allow: /
+Allow: /tina-marietta-j-ai-data-science-student.jpg
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+
+# Other search engines
+User-agent: Sogou
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
 
 # Host
 Host: https://tinamarietta.com
+
+# Clean URLs
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term
