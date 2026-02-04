@@ -1,61 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
-    <!-- Homepage / Main Portfolio -->
+    <!-- ============================================
+         TINA MARIETTA J - OFFICIAL PORTFOLIO SITEMAP
+         Maximum SEO Optimization for #1 Ranking
+         ============================================ -->
+    
+    <!-- Homepage / Main Portfolio - Highest Priority -->
     <url>
         <loc>https://tinamarietta.com/</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://tinamarietta.com/"/>
+        <xhtml:link rel="alternate" hreflang="en-US" href="https://tinamarietta.com/"/>
+        <xhtml:link rel="alternate" hreflang="en-IN" href="https://tinamarietta.com/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://tinamarietta.com/"/>
+        
+        <!-- Profile Image - Primary for Image Search -->
         <image:image>
-            <image:loc>https://tinamarietta.com/profile.jpg</image:loc>
-            <image:title>Tina Marietta J - AI and Data Science Student Profile Photo</image:title>
-            <image:caption>Official profile photo of Tina Marietta J, B.Tech AI &amp; Data Science student at St. Xavier's Catholic College of Engineering, Nagercoil</image:caption>
+            <image:loc>https://tinamarietta.com/tina-marietta-j-ai-data-science-student.jpg</image:loc>
+            <image:title>Tina Marietta J - Official Profile Photo - AI and Data Science Student</image:title>
+            <image:caption>Official professional profile photograph of Tina Marietta J, a B.Tech AI and Data Science student at St. Xavier's Catholic College of Engineering (SXCCE), Nagercoil, Tamil Nadu, India. Expert in Python, Java, Machine Learning, Deep Learning, Computer Vision, and IoT Development. This is the verified official photo of Tina Marietta J.</image:caption>
+            <image:geo_location>Nagercoil, Tamil Nadu, India</image:geo_location>
+            <image:license>https://creativecommons.org/licenses/by-nc-nd/4.0/</image:license>
         </image:image>
     </url>
     
-    <!-- Section Pages -->
+    <!-- About Section -->
     <url>
         <loc>https://tinamarietta.com/#about</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tinamarietta.com/#education</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://tinamarietta.com/#skills</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://tinamarietta.com/#projects</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-01-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     
+    <!-- Education Section -->
     <url>
-        <loc>https://tinamarietta.com/#achievements</loc>
-        <lastmod>2025-01-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://tinamarietta.com/#contact</loc>
-        <lastmod>2025-01-01</lastmod>
+        <loc>https://tinamarietta.com/#education</loc>
+        <lastmod>2025-01-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
-</urlset>
+    <!-- Skills Section -->
+    <url>
+        <loc>https://tinamarietta.com/#skills</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Projects Section -->
+    <url>
+        <loc>https://tinamarietta.com/#projects</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <!-- Achievements Section -->
+    <url>
+        <loc>https://tinamarietta.com/#achievements</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Contact Section -->
+    <url>
+        <loc>https://tinamarietta.com/#contact</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+</urlset>     
